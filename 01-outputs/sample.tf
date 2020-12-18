@@ -14,3 +14,5 @@ output "b" {
 output "c" {
   value = true
 }
+
+resource "null_resource" "abc" {}
