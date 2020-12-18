@@ -11,3 +11,8 @@ output "abc" {
   value = var.abc
 }
 
+# Input type as a argument
+variable "abc1" {}
+output "abc1" {
+  value = var.abc1
+}
