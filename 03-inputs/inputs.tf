@@ -23,3 +23,9 @@ output "abc2" {
   value = var.abc2
 }
 
+
+# Input from file, sample.auto.tfvars
+variable "abc3" {}
+output "abc3" {
+  value = var.abc3
+}
