@@ -37,3 +37,17 @@ output "list_3" {
   value = var.list[2]
 }
 
+# Variable  Type - MAP
+
+variable "map" {
+  default = {
+    course_name = "DevOps",
+    trainer = "Raju"
+  }
+}
+
+output "COURSE_NAME" {
+  value = var.map["course_name"]
+}
+
+
