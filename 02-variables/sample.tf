@@ -21,3 +21,12 @@ variable "list" {
 output "list_1" {
   value = var.list[0]
 }
+
+output "list_2" {
+  value = var.list[1]
+}
+
+output "list_3" {
+  value = var.list[2]
+}
+
