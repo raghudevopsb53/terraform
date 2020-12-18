@@ -50,4 +50,10 @@ output "COURSE_NAME" {
   value = var.map["course_name"]
 }
 
+## Variables if we are combining with other strings then those should be given in quotes
+# Only thing is , Terraform does not support single quotes any where
+
+output "COURSE" {
+  value = "Welcome to ${var.map["course_name"]} Training, Trainer is ${var.map["trainer"]}"
+}
 
