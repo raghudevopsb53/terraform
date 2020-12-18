@@ -4,7 +4,8 @@
 
 variable "abc" {}
 
-# Input type - Over CLI
+# Input type - After terraform apply execution
 output "abc" {
   value = var.abc
 }
+
