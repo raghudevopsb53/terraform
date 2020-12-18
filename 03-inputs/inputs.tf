@@ -2,7 +2,9 @@
 
 # Thats why we need to declare a empty variable in terraform
 
-variable "abc" {}
+variable "abc" {
+  type = "number"
+}
 
 # Input type - After terraform apply execution
 output "abc" {
