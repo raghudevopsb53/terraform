@@ -16,3 +16,10 @@ variable "abc1" {}
 output "abc1" {
   value = var.abc1
 }
+
+# Input type from a file
+variable "abc2" {}
+output "abc2" {
+  value = var.abc2
+}
+
