@@ -3,7 +3,7 @@
 # Thats why we need to declare a empty variable in terraform
 
 variable "abc" {
-  type = "number"
+  type = number
 }
 
 # Input type - After terraform apply execution
