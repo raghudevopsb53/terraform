@@ -38,4 +38,3 @@ variable "abc4" {}
 output "abc4" {
   value = var.abc4
 }
-
