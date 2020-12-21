@@ -4,7 +4,7 @@ provider "aws" {
 
 data "aws_ami" "example" {
   most_recent = true
-  owners = ["811742389611"]
+  owners = ["099034111737"]
 }
 
 output "ami" {
