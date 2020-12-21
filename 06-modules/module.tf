@@ -4,6 +4,7 @@ module "module1" {
 }
 
 module "module2" {
+  depends_on = [module.module1]
   source = "./module2"
   PUBLIC_IP = module.module1.PUBLIC_IP
 }
